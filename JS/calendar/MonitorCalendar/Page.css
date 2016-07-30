@@ -1,0 +1,166 @@
+/*页面各种内容区域样式定义*/
+
+.PageTitleTable
+{
+	/*页面标题表格样式*/
+	background-image: url(../../Images/Share/tab.bg.gif);
+	border-width: 0px;
+	border-collapse: collapse;
+	width: 100%;
+	height: 24px;
+}
+
+.PageTitleTdImg
+{
+	/*页面标题图片单元格样式*/
+	text-align: center;
+	width: 20px;
+}
+.PageTitleTdTxt
+{
+	/*页面标题文本单元格样式*/
+	font-weight: bold;
+	color: #000080;
+	FILTER: DropShadow(Color=#CCCCFF, OffX=1, OffY=1);
+}
+
+.PageCommandTable
+{
+	/*页面操作按钮区域表格样式*/
+	background-image: url(dhbg.gif);
+	border-width: 0px;
+	border-collapse: collapse;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	height: 27px;
+	border-bottom: #4682B4 1px  solid
+}
+
+.PageOptionTable
+{
+	/*页面查询选项区域表格样式*/
+	background-color: #EDF2FC;
+	border-width: 0px;
+	border-collapse: collapse;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+}
+
+table.Tab
+{
+	/*选项卡的表格样式*/
+	border: 0;
+	width: 100%;
+}
+
+tr.Tab
+{
+	/*选项卡的行样式*/
+	height: 22px;
+}
+
+td.TabNormal
+{
+	/*未选中状态的选项卡样式*/
+	border: #000000 1px solid;
+	padding: 2;
+	width: 25%;
+	text-align: center;
+	background-color: #C7D8FA;
+	background-image:url(../../Images/Share/dhbg.gif);
+	
+	cursor: hand;
+	/*
+	FILTER: progid:DXImageTransform.Microsoft.dropshadow(OffX=1, OffY=0, Color='#C0C0C0', Positive='true')
+	*/
+}
+
+td.TabSelected
+{
+	/*选中状态的选项卡样式*/
+	border-left: #000000 1px solid;
+	border-right:#000000 1px solid;
+	border-top: #000000 1px solid;
+	COLOR: white;
+	width: 25%;
+	padding: 2;
+	text-align:  center;
+	background-image:url(../../Images/Share/bgcolor-xx.gif);
+	cursor: hand;
+	/*
+	FILTER: progid:DXImageTransform.Microsoft.dropshadow(OffX=1, OffY=0, Color='#C0C0C0', Positive='true')
+	*/
+}
+
+td.TabMoveMouse
+{
+	/*鼠标移到标签页上的显示效果*/
+	border: #000000 1px solid;
+	width: 25%;
+	padding: 2;
+	 font-weight:bold;
+	text-align:  center;
+	background-color: #D8E8FF;
+	background-image:url(../../Images/Share/dhbg.gif);
+	cursor: hand;
+	
+}
+
+td.TabLine
+{
+	/*选项卡的间隔或空余单元格样式*/
+	border-bottom: #000000 1px solid;
+	padding: 2;
+	width: 100%;
+	text-align: right;
+}
+
+td.TabBanner
+{
+	/*选项卡中内容框的横条样式*/
+	border-left: #000000 1px solid;
+	border-right: #000000 1px solid;
+	border-bottom: #000000 1px solid;
+	padding: 0;
+	text-align: center;
+	background-color: #C7D8FA;
+	text-align: center;
+	width: 100%;
+}
+
+td.TabBottom
+{
+	/*选项卡中内容框的底部留空横条样式*/
+	border-left: #000000 1px solid;
+	border-right: #000000 1px solid;
+	border-bottom: #000000 1px solid;
+	padding: 0;
+	text-align: center;
+	background-color: #C7D8FA;
+	text-align: center;
+	width: 100%;
+}
+
+.BorderLabel
+{
+	/*带边框的Label标签元素，可以用作显示单行文本*/
+	font-size: 9pt;
+	border: ridge 1px #99ccff;
+	padding: 1px;
+	width: 90%;
+	height: 20px;
+}
+
+td.TableTab
+{
+	/*标题样式*/
+	BACKGROUND-IMAGE: url(../../Images/Share/dhbg.gif);
+	COLOR: black;
+	HEIGHT: 25px;
+	padding-left:5px;
+	font-weight:bold;
+	font-size:15px;	
+	border-bottom: #4682B4 1px  solid
+}

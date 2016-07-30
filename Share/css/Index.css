@@ -1,0 +1,34 @@
+ /*	  Ê×Ò³ By youqing   2011-8-24 17:18:38  */
+html,body {width:100%;height:100%;margin:0px;padding:0px;}
+#IndexOuter {overflow:hidden;}
+#IndexOuter img {vertical-align:middle}
+#leftMenuBody{background:#f5f9ff;}
+#DeskTopBody{background:#f2faf7}
+.AllTable {width: 100%; height: 100%;}
+
+
+#leftMenuBody {background:url(../images/Index/leftMenuBodyBg.png) right repeat-y;}
+#leftMenuBody div {width:164px;margin:6px auto;}
+#leftMenuBody img {vertical-align:middle}
+#leftMenuBody h1{width:164px;height:23px;padding:10px 0 0 0; overflow:hidden;margin:0 auto;font-size:12px;color:#555;text-indent:17px;text-overflow:ellipsis;white-space:nowrap}
+#leftMenuBody h1 span{width:139px;display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+#leftMenuBody div div{width:164px;overflow:hidden;margin:0 auto;padding:5px 0 10px 0; background:url(../images/Index/LeftMenuH2Bg.png) bottom center no-repeat; display:none}
+#leftMenuBody h2{ width:164px;height:27px;overflow:hidden;font-size:12px;color:#555;font-weight:normal;line-height:27px;text-indent:24px;}
+#leftMenuBody h2 span{width:149px;display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.leftMenuH1Yes {background:url(../images/Index/Main.png) 0 -100px no-repeat;}
+.leftMenuH1No {background:url(../images/Index/Main.png) 0 0 no-repeat;}
+.leftMenuH2Yes {background:url(../images/Index/MenuH2H3Bg.png) 4px 0 no-repeat;}
+
+
+.IndexTopMenuBg {height:30px;background:url(../images/Index/IndexTopMenuBg.png) repeat-x;}
+.IndexLogoBg {height:83px;background:url(../images/Index/IndexLogoBg.png) repeat-x;}
+
+#LoginInfo {display:none; width:283px;height:140px;position:absolute;top:103px;right:23px;background:url(../images/Index/MenuH2H3Bg.png) 0 -200px  no-repeat;}
+#Buju {display:none;text-align:center; width:283px;height:140px;position:absolute;top:103px;right:28px;background:url(../images/Index/MenuH2H3Bg.png) 0 -350px  no-repeat;}
+
+h3 {float:left;margin:0 0;color:#fff;font-size:12px;font-weight:normal;height:30px;cursor:hand;text-indent:12px;line-height:30px;filter:DropShadow(Color=#060A2D,OffX=1,OffY=1,Positive=1);}
+h4 {background:url(../images/Index/MenuH2H3Bg.png)  0px -147px no-repeat;float:left;margin:0 0;color:#fff;font-size:12px;font-weight:normal;height:30px;width:18px;}
+h5 {float:right;margin:0 8px;font-size:12px;font-weight:normal;height:30px;line-height:30px;}
+.h3Yes {background:url(../images/Index/MenuH2H3Bg.png) -97px left no-repeat;color:#333;filter:DropShadow(Color=#154960,OffX=0,OffY=0,Positive=0);}
+.h4Yes {background:url(../images/Index/MenuH2H3Bg.png) -97px right no-repeat;color:#333;}
+

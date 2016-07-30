@@ -1,0 +1,156 @@
+body {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	font-size: 12px;
+	
+	scrollbar-darkShadow-color:#8CB1D6;
+    scrollbar-3d-light-color:#8CB1D6;
+    scrollbar-arrow-color:white;
+    scrollbar-base-color:#EFEFFF;
+    scrollbar-face-color:#8CB1D6;
+    scrollbar-highlight-color:#EFEFFF;
+    scrollbar-shadow-color:#EFEFFF;
+    scrollbar-track-color:#EFEFFF
+}
+
+a:hover {
+	color: #000000;
+	text-decoration: none;
+}
+
+a:link {
+	color: #000000;
+	text-decoration: none;
+}.child {
+	border:1px solid #FFFFFF;
+	height:20px;
+	padding-top:3px;
+	padding-left:3px;
+	display:none
+}
+.shadow {
+	filter: DropShadow(Color=#999999, OffX=2, OffY=2, Positive=1);
+	position:relative;
+	top:-1px;
+	left:-1px;
+}
+.borderall {
+	border: 1px solid #333333
+}
+.tden {
+	font-size: 12px;
+	font-family: "Verdana", "Arial", "Helvetica", "sans-serif";
+	font-weight: normal
+}
+
+
+/*文本框*/
+.input150{
+	height:15px;
+	width: 150px;
+	border: 1px solid #CCCCCC;
+    background-color:White;
+    }   
+.input100{
+	height:15px;
+	width: 100px;
+	border: 1px solid #CCCCCC;
+   }
+   
+.downxu{
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #CCCCCC;
+}
+.down3366CC{
+	border-bottom-width: 4px;
+	border-bottom-style: solid;
+	border-bottom-color: #3366CC;
+}
+
+.input70{
+	height:15px;
+	width: 70px;
+	border: 1px solid #CCCCCC;
+   }
+.input200{
+	height:15px;
+	width: 200px;
+	border: 1px solid #CCCCCC;
+}
+
+/*字体色彩*/   
+.0066cc{color:#0066cc}
+.naviCCCCCC {
+	border: 1px solid #CCCCCC;
+	background-color: #DBDBF7;
+}
+
+/*按钮*/
+.buttonCCC{
+	padding: 1px;
+	border: 1px dashed #CCCCCC;
+}
+
+.borderoff {
+	font-size: 12px;
+	border-color: #808080 #FFFFFF #FFFFFF #808080;
+	border-style: solid;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	background-color: #ffffff
+}
+.borderon {
+	font-size: 12px;
+	border-color: #FFFFFF #808080 #808080 #FFFFFF;
+	border-style: solid;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	background-color: #ffffff
+}
+.button1 {
+	border:1px solid #D4D0C8;
+	cursor:default;
+}
+
+.button{
+	padding: 1px;
+	border: 1px dashed #CCCCCC;
+}
+.inp_L1,.inp_L2,{background:url(../images/bg_x.jpg) no-repeat}
+.inp_L1{ width:67px; height:23px; background-position:-4px -4px; border:0; color:#464646; line-height:23px}
+.inp_L2{ width:67px; height:23px; background-position:-4px -30px; border:0; color:#464646; line-height:23px}
+
+
+.autoTable
+{
+        width: 100%;
+        table-layout: fixed;
+        cursor:hand;
+	    padding-left:2px;
+	    padding-top:2px;
+	    text-align: center;
+	    vertical-align:middle;
+}
+
+
+
+.autoHide
+{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow:ellipsis;
+}
+
+
+.inputDate {BEHAVIOR: url(share/css/Calendar.htc);}

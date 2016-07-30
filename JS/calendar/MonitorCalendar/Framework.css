@@ -1,0 +1,305 @@
+/*系统框架通用样式定义*/
+
+/*
+ *包含页面各种元素的默认样式，特殊定义的表格、单元格、层、输入域等样式
+ *包含自定义的一些显示控件的样式，比如单位选择、日期选择等
+ */
+
+BODY
+{
+	/*页面总体默认样式*/
+	background-image: url(../images/bodybg.gif);
+	scrollbar-face-color: #92B7E1;
+	scrollbar-highlight-color: #ffffff;
+	scrollbar-shadow-color: #6C8ECB;
+	scrollbar-3dlight-color: #D7EAFB;
+	scrollbar-arrow-color:  #234200;
+	scrollbar-track-color: #D7EAFB;
+	scrollbar-darkshadow-color: #6C8ECB;
+	overflow:auto;
+    margin: 0pt 0pt 0pt 0pt;
+}
+
+TABLE
+{
+	/*表格默认样式*/
+	border-collapse : collapse;
+	border: 0px none;
+}
+
+TD
+{
+	/*单元格默认样式*/
+	font-size: 9pt;
+	padding: 0px;
+}
+
+/*链接默认样式*/
+A:link       { color: #000000; text-decoration:none }
+A:visited    { color: #000000; text-decoration:none }
+A:active     { color: #FF0000; text-decoration:underline }
+A:hover      { color: #FF0000; text-decoration:underline }
+
+INPUT
+{
+	/*输入域默认样式*/
+	border-width: 1px;
+	border-color: #CCCCCC;
+	font-size: 9pt;
+	height: 18px;
+	padding: 1px;
+}
+
+TEXTAREA
+{
+	/*输入区域默认样式*/
+	border-width: 1px;
+	border-color: #CCCCCC;
+	font-size: 9pt;
+	padding: 1px;
+}
+
+SELECT
+{
+	/*下拉列表默认样式*/
+	border-width: 1px;
+	border-color: #CCCCCC;
+	font-size: 9pt;
+	height: 18px;
+	padding: 1px;
+}
+
+
+.tdlabel
+{
+	/*标签单元格样式*/
+	width: 15%;
+	font-size: 9pt;
+	border-color: #C7D8FA;
+	border-style: solid;
+	border-width: 1px;
+	padding: 3px;
+	text-align: right;
+	background-color: #EDF2FC;
+	white-space: nowrap;
+}
+
+.tdinput
+{
+	/*输入域单元格样式*/
+	width: 35%;
+	font-size: 9pt;
+	border-color: #C7D8FA;
+	border-style: solid;
+	border-width: 1px;
+	padding: 3px;
+	text-align: left;
+	background-color: #EDF2FC;
+}
+
+.tdlabel4
+{
+	/*弹出窗口的详细信息标签样式*/
+	width: 15%;
+	font-size: 10pt;
+	border: gray solid;
+	border-width: 1 1 1 1;
+	padding: 3px;
+	text-align: right;
+	background-color: #E4E4E4;
+	white-space: nowrap;
+	
+}
+.tdinput4
+{
+	/*弹出窗口的详细信息内容样式*/
+	width: 35%;
+	font-size: 10pt;
+	border: gray solid;
+	border-width: 1 1 1 1;
+	padding: 3px;
+	background-color: #FCFCFC;
+}
+
+.tdfieldset  
+{
+	/*包含按钮的大单元格样式*/
+	text-align:right;
+	width: 100%;
+	height: 20px;
+	vertical-align: middle;
+	padding: 0px;
+}
+
+.tdbuttonleft
+{
+	/*包含通用按钮的表格之左侧单元格样式*/
+	font-size: 9pt;
+	text-align: left;
+	vertical-align: middle;
+	padding: 0px, 1px, 0px;
+	width: 100%;
+}
+
+.tdbutton
+{
+	/*包含通用按钮的单元格样式*/
+	text-align: center;
+	vertical-align: middle;
+	padding: 0px, 1px, 0px;
+	width: 60px;
+}
+
+.tablebutton
+{
+	/*包含通用按钮的表格样式*/
+	width: 100%;
+	height: 100%;
+}
+
+.normal-button
+{
+	/*通用按钮样式样式*/
+	background-image: url('../../Images/Share/btn_bg.gif'); 
+	padding-left:2;
+	padding-right:2;
+	background-color:#ffffff;
+	padding-top:4;
+	border:1px solid #6493BC;                                
+	cursor:hand;
+	width: 60px;
+	height:22px;
+	}
+
+.mini-button
+{
+	/*小型按钮样式*/
+	border: 1px solid #000000;
+	background-color: #D1E2F5;
+	font-size: 9pt;
+	height: 18px;
+	cursor: hand;
+}
+
+.tableall
+{
+	/*页面整体表格的通用样式*/
+	background-image: url(../../Images/Share/tab.bg.gif);
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	border-width: 0px;
+	border-collapse: collapse;
+}
+
+.tablecontent
+{
+	/*主表格的通用样式*/
+	width: 100%;
+	height: auto;
+	border: #82AAD4 solid;
+	border-width: 1 1 1 1;
+	border-collapse: collapse;
+}
+
+.tdcontent
+{
+	/*主单元格的通用样式*/
+	width: 100%;
+	height: 100%;
+	padding: 0px;
+	margin: 0px;
+	background-color: #FFFFFF;
+}
+
+.content
+{
+	/*带滚动条的通用层样式*/
+	background-color: #ffffff;
+	overflow:auto;
+	width: 100%;
+	height: 100%;
+	text-align: left;
+	scrollbar-darkShadow-color:#8CB1D6;
+	scrollbar-3d-light-color:#8CB1D6;
+	scrollbar-arrow-color:white;
+	scrollbar-base-color:#EFEFFF;
+	scrollbar-face-color:#8CB1D6;
+	scrollbar-highlight-color:#EFEFFF;
+	scrollbar-shadow-color:#EFEFFF;
+	scrollbar-track-color:#EFEFFF
+}
+
+.DeptView
+{
+	/*部门显示框样式*/
+	
+	background-color: white;
+	width: 100%;
+	height: 22px;
+	border: #99ccff 1px ridge;
+	padding: 1px 1px 1px 1px;
+	font-size: 9pt;
+}
+
+.DateView
+{
+	/*日期显示框样式*/
+	background-color: white;
+	width: 100%;
+	height: 20px;
+	border: #99ccff 1px ridge;
+	padding: 1px 1px 1px 1px;
+	font-size: 9pt;
+}
+
+.button-open
+{
+	/*弹出窗口按钮样式*/
+	background-image: url(../../Images/Share/button-open.gif);
+	cursor: hand;
+	height: 22px;
+	width: 20px;
+	border-width: 0px;
+	padding: 0 0 0 0;
+}
+
+.button-transparent
+{
+	/*背景透明，白色字体，无边框，手型光标的按钮样式*/
+	border-style: none;
+	color: #FFFFFF;
+	cursor: hand;
+	background-color: Transparent;
+}
+
+.OptionControlPlus
+{
+	/*查询选项节点样式（未展开）*/
+	background-color: Transparent;
+	background-image: url(../../Resources/images/plus.gif);
+	color: Silver;
+	font-size: 0px;
+	text-align: right;
+	cursor: hand;
+	height: 20px;
+	width: 20px;
+	border-width: 0px;
+	padding: 0 0 0 0;
+}
+
+.OptionControlMinus
+{
+	/*查询选项节点样式（已展开）*/
+	background-color: Transparent;
+	background-image: url(../../Resources/images/minus.gif);
+	color: Silver;
+	font-size: 0px;
+	text-align: right;
+	cursor: hand;
+	height: 20px;
+	width: 20px;
+	border-width: 0px;
+	padding: 0 0 0 0;
+}

@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{52A43677-CA0F-4F8E-865D-9825C090BFB1}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Accounts.BLL</RootNamespace>
+    <AssemblyName>Accounts.BLL</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AspNetPager">
+      <HintPath>..\bin_backup\AspNetPager.dll</HintPath>
+    </Reference>
+    <Reference Include="Inspur.Finix.ConfigurationManagement">
+      <HintPath>..\bin_backup\Inspur.Finix.ConfigurationManagement.dll</HintPath>
+    </Reference>
+    <Reference Include="Inspur.Finix.DAL">
+      <HintPath>..\bin_backup\Inspur.Finix.DAL.dll</HintPath>
+    </Reference>
+    <Reference Include="Inspur.Finix.DataExchange">
+      <HintPath>..\bin_backup\Inspur.Finix.DataExchange.dll</HintPath>
+    </Reference>
+    <Reference Include="Inspur.Finix.ExceptionManagement">
+      <HintPath>..\bin_backup\Inspur.Finix.ExceptionManagement.dll</HintPath>
+    </Reference>
+    <Reference Include="Inspur.Finix.WebFramework">
+      <HintPath>..\bin_backup\Inspur.Finix.WebFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="Inspur.Finix.WebFramework.Controls4AJAX">
+      <HintPath>..\bin_backup\Inspur.Finix.WebFramework.Controls4AJAX.dll</HintPath>
+    </Reference>
+    <Reference Include="Inspur.Finix.WebFramework.Controls4AspNet">
+      <HintPath>..\bin_backup\Inspur.Finix.WebFramework.Controls4AspNet.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=12.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\..\Bin\Microsoft.Office.Interop.Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json.Net20.Merged">
+      <HintPath>..\bin_backup\Newtonsoft.Json.Net20.Merged.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Common\CacheHelper.cs" />
+    <Compile Include="Common\CMPP3\CMPP_ACTIVE_TEST.cs" />
+    <Compile Include="Common\CMPP3\CMPP_ACTIVE_TEST_RESP.cs" />
+    <Compile Include="Common\CMPP3\CMPP_Command_Id.cs" />
+    <Compile Include="Common\CMPP3\CMPP_CONNECT.cs" />
+    <Compile Include="Common\CMPP3\CMPP_CONNECT_RESP.cs" />
+    <Compile Include="Common\CMPP3\CMPP_DELIVER.cs" />
+    <Compile Include="Common\CMPP3\CMPP_DELIVER_RESP.cs" />
+    <Compile Include="Common\CMPP3\CMPP_Msg_Content.cs" />
+    <Compile Include="Common\CMPP3\CMPP_QUERY.cs" />
+    <Compile Include="Common\CMPP3\CMPP_QUERY_RESP.cs" />
+    <Compile Include="Common\CMPP3\CMPP_Request.cs" />
+    <Compile Include="Common\CMPP3\CMPP_Response.cs" />
+    <Compile Include="Common\CMPP3\CMPP_SUBMIT.cs" />
+    <Compile Include="Common\CMPP3\CMPP_SUBMIT_RESP.cs" />
+    <Compile Include="Common\CMPP3\MessageHeader.cs" />
+    <Compile Include="Common\CMPP3\Util.cs" />
+    <Compile Include="Common\DESEncrypt.cs" />
+    <Compile Include="Common\DTRequest.cs" />
+    <Compile Include="Common\Messages.cs" />
+    <Compile Include="Common\SMSHepler2CMPP.cs" />
+    <Compile Include="Common\Utils.cs" />
+    <Compile Include="FormField.cs" />
+    <Compile Include="BasePage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Common\DictionaryHelp.cs" />
+    <Compile Include="Common\ExcelHelper.cs" />
+    <Compile Include="Common\IDvalidate.cs" />
+    <Compile Include="Common\JSONhelper.cs" />
+    <Compile Include="Common\MessageHelp.cs" />
+    <Compile Include="Common\SettingHelper.cs" />
+    <Compile Include="Common\SMSHepler.cs" />
+    <Compile Include="Common\WebServiceProxy.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Common\XmlHelp.cs" />
+    <Compile Include="Com_ButtonGroup.cs" />
+    <Compile Include="Com_LoginLog.cs" />
+    <Compile Include="Com_NavigationAndButton.cs" />
+    <Compile Include="Com_OrgAddUser.cs" />
+    <Compile Include="Com_Organization.cs" />
+    <Compile Include="Com_UserInfos.cs" />
+    <Compile Include="Com_UserLogin.cs" />
+    <Compile Include="Login\LoginBll.cs" />
+    <Compile Include="Common\MessageHelper.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tb_Navigation.cs" />
+    <Compile Include="Tb_Roles.cs" />
+    <Compile Include="Tb_RolesAddUser.cs" />
+    <Compile Include="Tb_RolesAndNavigation.cs" />
+    <Compile Include="ToExcel\cEnContentParams.cs" />
+    <Compile Include="ToExcel\cEnTitleParams.cs" />
+    <Compile Include="ToExcel\cExcelHeaderDefine.cs" />
+    <Compile Include="ToExcel\cMakeExcel.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ToExcel\cXlsColumn.cs" />
+    <Compile Include="View_Users.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DriveDAL\Accounts.DAL.csproj">
+      <Project>{c3992b8f-6dcd-4a6e-a0ad-6ecbe65127ca}</Project>
+      <Name>Accounts.DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Model\Accounts.Model.csproj">
+      <Project>{92b871e1-029a-47e1-83fa-0fce17e57fc1}</Project>
+      <Name>Accounts.Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

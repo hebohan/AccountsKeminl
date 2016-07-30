@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<meta name="renderer" content="webkit">
+		<meta http-equiv="Cache-Control" content="no-siteapp" />
+		<link rel="stylesheet" type="text/css" href="css/amazeui.min.css">
+		<link rel="stylesheet" type="text/css" href="css/app.css">
+		<link href="css/style.css" rel="stylesheet" type="text/css">
+		<link href="css/framework.css" rel="stylesheet" type="text/css">
+		<link href="css/owl.theme.css" rel="stylesheet" type="text/css">
+		<link href="css/swipebox.css" rel="stylesheet" type="text/css">
+		<link href="css/font-awesome.css" rel="stylesheet" type="text/css">
+		<link href="css/animate.css" rel="stylesheet" type="text/css">
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/amazeui.js"></script>
+		<script type="text/javascript" src="js/handlebars.min.js"></script>
+		<script type="text/javascript" src="js/amazeui.widgets.helper.js"></script>
+		<script type="text/javascript" src="js/amazeui.ie8polyfill.min.js"></script>
+		<script type="text/javascript" src="js/jqueryui.js"></script>
+		<script type="text/javascript" src="js/framework.plugins.js"></script>
+		<script type="text/javascript" src="js/custom.js"></script>
+		<title></title>
+	</head>
+
+	<body>
+		<!--
+        	作者：xupeng6814@163.com
+        	时间：2015-08-06
+        	描述：页面公共部分
+        -->
+		<!--加载-->
+		<div id="preloader">
+			<div id="status">
+				<p class="center-text">
+					内容加载中...
+					<em>加载速度取决于您的网速!</em>
+				</p>
+			</div>
+		</div>
+		<!--顶部-->
+		<header data-am-widget="header" data-am-sticky="{animation: 'slide-top'}" class="am-header am-header-default">
+			<div class="am-header-left am-header-nav">
+				<a href="index.html" class="">
+					<i class="am-header-icon am-icon-home"></i>
+				</a>
+			</div>
+			<h1 class="am-header-title">
+    <a href="#title-link" class="">登录</a>
+  </h1>
+			<div class="am-header-right am-header-nav">
+				<a href="#right-link" class="" data-am-offcanvas>
+					<i class="am-header-icon am-icon-bars"></i>
+				</a>
+			</div>
+		</header>
+		<!-- 侧边栏内容 -->
+		<div id="right-link" class="am-offcanvas">
+			<div class="am-offcanvas-bar">
+				<div class="am-offcanvas-content snap-drawer snap-drawer-left">
+					<!-- Left Sidebar -->
+					<div class="sidebar-logo">
+						<a href="login.html">
+							<i class="fa fa-user fa-5x am-circle"></i>
+							<span class="am-navbar-label">请登录</span>
+						</a>
+					</div>
+
+					<div class="sidebar-divider">
+						导航
+					</div>
+
+					<ul class="sidebar-navigation">
+						<li><a href="index.html"><i class="fa fa-home"></i>首页<i class="fa fa-circle"></i></a></li>
+						<li class="has-submenu">
+							<a class="deploy-submenu" href="#"><i class="fa fa-cog"></i>Features<i class="fa fa-plus"></i></a>
+							<ul class="submenu">
+								<li><a href="features-type.html"><i class="fa fa-angle-right"></i>Type<i class="fa fa-circle"></i></a></li>
+								<li><a href="features-jquery.html"><i class="fa fa-angle-right"></i>jQuery<i class="fa fa-circle"></i></a></li>
+								<li><a href="features-others.html"><i class="fa fa-angle-right"></i>Others<i class="fa fa-circle"></i></a></li>
+							</ul>
+						</li>
+						<li class="has-submenu">
+							<a class="deploy-submenu" href="#"><i class="fa fa-picture-o"></i>Portfolios<i class="fa fa-plus"></i></a>
+							<ul class="submenu">
+								<li><a href="portfolio-adaptive.html"><i class="fa fa-angle-right"></i>Adaptive<i class="fa fa-circle"></i></a></li>
+								<li><a href="portfolio-one.html"><i class="fa fa-angle-right"></i>One Column<i class="fa fa-circle"></i></a></li>
+								<li><a href="portfolio-two.html"><i class="fa fa-angle-right"></i>Two Columns<i class="fa fa-circle"></i></a></li>
+							</ul>
+						</li>
+						<li class="has-submenu">
+							<a class="deploy-submenu" href="#"><i class="fa fa-camera"></i>Gallery<i class="fa fa-plus"></i></a>
+							<ul class="submenu">
+								<li><a href="gallery-square.html"><i class="fa fa-angle-right"></i>Square Thumbs<i class="fa fa-circle"></i></a></li>
+								<li><a href="gallery-round.html"><i class="fa fa-angle-right"></i>Round Thumbs<i class="fa fa-circle"></i></a></li>
+								<li><a href="gallery-wide.html"><i class="fa fa-angle-right"></i>Wide Thumbs<i class="fa fa-circle"></i></a></li>
+							</ul>
+						</li>
+						<li><a href="page-video.html"><i class="fa fa-youtube-play"></i>Videos<i class="fa fa-circle"></i></a></li>
+						<li><a href="page-blog.html"><i class="fa fa-pencil"></i>Blog<i class="fa fa-circle"></i></a></li>
+						<li><a href="contact.html"><i class="fa fa-envelope"></i>Contact<i class="fa fa-circle"></i></a></li>
+					</ul>
+
+					<div class="sidebar-divider">
+						联系我们
+					</div>
+
+					<ul class="sidebar-navigation">
+						<li><a href="#"><i class="fa fa-facebook"></i>Facebook<i class="fa fa-caret-right"></i></a></li>
+						<li><a href="#"><i class="fa fa-twitter"></i>Twitter<i class="fa fa-caret-right"></i></a></li>
+						<li><a href="#"><i class="fa fa-google-plus"></i>Google Plus<i class="fa fa-caret-right"></i></a></li>
+					</ul>
+					<div class="sidebar-divider" data-am-sticky="{bottom: 0}">
+						Copyright 2015. All rights reserved.
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--底部导航-->
+		<div data-am-widget="navbar" class="am-navbar am-cf am-navbar-default " id="">
+			<ul class="am-navbar-nav am-cf am-avg-sm-4">
+				<li>
+					<a href="#" class="">
+						<i class="am-icon-home am-icon-md"></i>
+						<span class="am-navbar-label">首页</span>
+					</a>
+				</li>
+				<li>
+					<a href="search.html" class="">
+						<i class="am-icon-search am-icon-md"></i>
+						<span class="am-navbar-label">搜索</span>
+					</a>
+				</li>
+				<li>
+					<a href="#" class="">
+						<i class="am-icon-user am-icon-md"></i>
+						<span class="am-navbar-label">个人中心</span>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<!--公共部分结束-->
+		<div id="content" class="am-vertical-align login-form">
+			<form class="am-form am-vertical-align-middle">
+			<div class="am-input-group am-input-group-secondary login-input">
+  <span class="am-input-group-label"><i class="am-icon-user am-icon-fw"></i></span>
+  <input type="text" class="am-form-field login-username" placeholder="用户名">
+</div>
+
+<div class="am-input-group am-input-group-danger login-input">
+  <span class="am-input-group-label"><i class="am-icon-key am-icon-fw"></i></span>
+  <input type="password" class="am-form-field" placeholder="密码">
+</div>
+<button type="button" class="am-btn am-btn-primary am-btn-block btn-login-loading" data-am-loading="{spinner: 'circle-o-notch', loadingText: '登陆中...'}">
+	<i class="am-icon-sign-in"></i>
+	登陆
+</button>
+</form>
+<hr data-am-widget="divider" style="" class="am-divider am-divider-default"/>
+<div class="am-input-group login-input">
+  <div><span class="am-text-default">联合登录</span></div>
+  <a href="" class="am-icon-btn am-success am-icon-wechat"></a>
+</div>	
+		</div>
+	</body>
+
+</html>

@@ -1,0 +1,50 @@
+﻿*
+{
+	margin: 0;
+	padding: 0;
+}
+body
+{
+	font-size: 12px;
+}
+h1
+{
+	text-align: center;
+	font-family: 黑体;
+	font-size: 26px;
+}
+h2
+{
+	margin: 0 auto;
+	font-size: 16px;
+	font-weight: 100;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: right;
+}
+h3
+{
+	margin: 0 auto;
+	text-align: center;
+	font-family: 黑体;
+	font-weight: 100;
+	margin-top: 70px;
+	margin-bottom: 25px;
+}
+.style3
+{
+	border-collapse: collapse;
+	margin: 0 auto;
+	width: 700px;
+}
+.style3 td
+{
+	border: 1px solid #000;
+	height: 35px;
+}
+.printbtn
+{
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 20px;
+}

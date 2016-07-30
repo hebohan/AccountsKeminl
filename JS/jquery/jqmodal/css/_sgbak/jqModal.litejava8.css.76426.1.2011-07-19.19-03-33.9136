@@ -1,0 +1,44 @@
+.jqmWindow {
+                background: #FFFFFF url(../notice/main_background.gif) left top repeat-x;
+                color: #000;
+                border: 1px solid #EAEAEB;
+                padding: 0 0px 37px;
+            }
+
+            button.jqmClose {
+                background: #DDD;
+                border: 0px solid #EAEAEB;
+                color: #111;
+                clear: right;
+                float: right;
+                padding: 0 5px;
+                cursor: pointer;
+                font-size: 8px;
+                height: 15px;
+                letter-spacing: 1px;
+            }
+
+            button.jqmClose:hover, button.jqmClose:focus {
+                background: #FFF;
+                color: #000;
+				border: 0px solid #FFF;
+            }
+
+            #jqmTitle {
+                background: transparent;
+                color: black;
+                text-transform: uppercase;
+                height: 15px;
+                padding: 5px;
+            }
+
+            #jqmContent {
+                width: 99%;
+                height: 99%;
+                display: block;
+                clear: both;
+                margin: auto;
+                margin-top: 10px;
+                background: #FFF;
+                border: 1px solid #EAEAEB;
+            }

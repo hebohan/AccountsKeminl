@@ -1,0 +1,281 @@
+﻿/*	  主页面（内框架） By youqing   2012-3-10 13:36:09  */
+html, body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+#MainCont
+{
+    width: 100%;
+    float: left;
+    background: #f2faf7;
+}
+
+
+/*头部*/
+.ListTitle
+{
+    background: url(../images/ListTitleBg.png) repeat-x;
+    width: 100%;
+    height: 38px;
+}
+.ListTitleStr
+{
+    padding: 0 20px 0 15px;
+    text-align: left;
+    width: 180px;
+}
+.ListTitleBtn
+{
+    padding: 0 5px 0 0px;
+    text-align: right;
+}
+
+
+/*跨页页签(横)*/
+
+.TabAllpage
+{
+    background: url(../images/main/tab.png) right -100px no-repeat;
+    height: 40px;
+    margin: 2px 8px 0px;
+}
+.TabAllpage_Leftbg
+{
+    background: url(../images/main/tab.png) left -150px no-repeat;
+    width: 12px;
+    height: 40px;
+    float: left;
+}
+
+.tabAll_selected
+{
+    background: url(../images/main/tab.png) right 0px no-repeat;
+    height: 40px;
+    width: 125px;
+    float: left;
+}
+.tabAll_selected div
+{
+    background: url(../images/main/tab.png) left -50px no-repeat;
+    text-align: center;
+    line-height: 36px;
+    cursor: hand;
+}
+
+.tabAll_Noselect
+{
+    height: 40px;
+    width: 125px;
+    float: left;
+}
+.tabAll_Noselect div
+{
+    background: url(../images/main/tab.png) right -200px no-repeat;
+    text-align: center;
+    line-height: 40px;
+    cursor: hand;
+}
+
+.tabAll_Noselect_noBg
+{
+    height: 40px;
+    width: 125px;
+    float: left;
+}
+/*用在选中个前一个页签，防止出现中线*/
+.tabAll_Noselect_noBg div
+{
+    text-align: center;
+    overflow: hidden;
+    line-height: 40px;
+    cursor: hand;
+}
+
+
+
+/*跨页表格(含标题)*/
+.ListTable
+{
+    border-left: 1px #B9D8FF solid;
+    border-right: 0;
+    table-layout: fixed;
+    border-collapse: collapse;
+    border-bottom: 1px #B9D8FF solid;
+    margin: 3px 8px 8px;
+}
+.ListTable thead
+{
+    display: table-header-group;
+    background: url(../images/main/MainTableHeadBg.png) repeat-x;
+}
+.ListTable thead tr td
+{
+    text-align: left;
+    text-indent: 30px;
+    height: 29px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    border-right: 1px solid #D7E8FF;
+}
+
+.ListTable tbody tr td
+{
+    border-collapse: collapse;
+    border-right: 1px solid #D7E8FF;
+    padding: 0 12px;
+    height: 27px;
+    overflow: hidden;
+    display: inline-block;
+}
+.ListTable tfoot
+{
+    display: table-footer-group;
+    height: 9px;
+    background: url(../images/ListTableFootBg.png) repear-x;
+}
+
+
+/*表单表格*/
+.FormTable
+{
+    border-top: 1px #B9D8FF solid;
+    border-left: 1px #B9D8FF solid;
+    border-right: 0;
+    table-layout: fixed;
+    border-collapse: collapse;
+    border-bottom: 1px #B9D8FF solid;
+    margin: 3px 8px 8px;
+}
+.FormTable tbody tr td
+{
+    border-collapse: collapse;
+    border-right: 1px solid #D7E8FF;
+    border-bottom: 1px solid #D7E8FF;
+    padding: 5px 10px;
+    overflow: hidden;
+    display: inline-block;
+}
+
+/*动态行表格*/
+.DynamicTable
+{
+    border-top: 1px #B9D8FF solid;
+    border-left: 1px #B9D8FF solid;
+    border-right: 0;
+    table-layout: fixed;
+    border-collapse: collapse;
+    border-bottom: 1px #B9D8FF solid;
+}
+.DynamicTable thead tr td
+{
+    border-collapse: collapse;
+    border-right: 1px solid #D7E8FF;
+    border-bottom: 1px solid #D7E8FF;
+    padding: 0px 5px;
+    height: 25px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    background-color: #EBF6FA;
+    display: inline-block;
+}
+.DynamicTable tbody tr td
+{
+    border-collapse: collapse;
+    border-right: 1px solid #D7E8FF;
+    border-bottom: 1px solid #D7E8FF;
+    padding: 1px 5px;
+    overflow: hidden;
+    background-color: #ffffff;
+    display: inline-block;
+}
+
+.MainIndex_outer
+{
+    margin: 8px 8px 0;
+}
+
+
+/*一个td两行*/
+.td2row div
+{
+    height: 25px;
+}
+
+
+/*页签(竖)*/
+
+
+.TabVer
+{
+    background: url(../images/main/tab.png) 0px -250px no-repeat;
+    width: 34px;
+}
+.TabVer_btbg
+{
+    background: url(../images/main/tab.png) -50px -2500px no-repeat;
+    width: 34px;
+    height: 18px;
+}
+
+.TabVer_selected
+{
+    background: url(../images/main/tab.png) -100px -250px no-repeat;
+    height: 110px;
+    width: 34px;
+    text-align: center;
+}
+.TabVer_selected div
+{
+    background: url(../images/main/tab.png) bottom -150px no-repeat;
+    text-align: center;
+    overflow: hidden;
+    cursor: hand;
+    height: 100%;
+}
+
+.TabVer_Noselect
+{
+    height: 110px;
+    width: 34px;
+    text-align: center;
+}
+.TabVer_Noselect div
+{
+    background: url(../images/main/tab.png) bottom -200px no-repeat;
+    text-align: center;
+    overflow: hidden;
+    cursor: hand;
+    height: 100%;
+}
+
+.TabVer_Noselect_noBg
+{
+    height: 110px;
+    width: 34px;
+    text-align: center;
+}
+/*用在选中个前一个页签，防止出现中线*/
+.TabVer_Noselect_noBg div
+{
+    text-align: center;
+    overflow: hidden;
+    cursor: hand;
+    height: 100%;
+}
+
+
+.TabVerCont
+{
+    border: 1px solid #B9D8FF;
+    border-left: 0;
+    width: 100;
+    height: 100%;
+    background: #fff;
+    text-align: center;
+}

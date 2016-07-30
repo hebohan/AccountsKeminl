@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C3992B8F-6DCD-4A6E-A0AD-6ECBE65127CA}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Accounts.DAL</RootNamespace>
+    <AssemblyName>Accounts.DAL</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AspNetPager">
+      <HintPath>..\bin_backup\AspNetPager.dll</HintPath>
+    </Reference>
+    <Reference Include="Inspur.Finix.ConfigurationManagement">
+      <HintPath>..\bin_backup\Inspur.Finix.ConfigurationManagement.dll</HintPath>
+    </Reference>
+    <Reference Include="Inspur.Finix.DAL">
+      <HintPath>..\bin_backup\Inspur.Finix.DAL.dll</HintPath>
+    </Reference>
+    <Reference Include="Inspur.Finix.DataExchange">
+      <HintPath>..\bin_backup\Inspur.Finix.DataExchange.dll</HintPath>
+    </Reference>
+    <Reference Include="Inspur.Finix.ExceptionManagement">
+      <HintPath>..\bin_backup\Inspur.Finix.ExceptionManagement.dll</HintPath>
+    </Reference>
+    <Reference Include="Inspur.Finix.WebFramework">
+      <HintPath>..\bin_backup\Inspur.Finix.WebFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="Inspur.Finix.WebFramework.Controls4AJAX">
+      <HintPath>..\bin_backup\Inspur.Finix.WebFramework.Controls4AJAX.dll</HintPath>
+    </Reference>
+    <Reference Include="Inspur.Finix.WebFramework.Controls4AspNet">
+      <HintPath>..\bin_backup\Inspur.Finix.WebFramework.Controls4AspNet.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FormField.cs" />
+    <Compile Include="Com_ButtonGroup.cs" />
+    <Compile Include="Com_LoginLog.cs" />
+    <Compile Include="Com_NavigationAndButton.cs" />
+    <Compile Include="Com_OrgAddUser.cs" />
+    <Compile Include="Com_Organization.cs" />
+    <Compile Include="Com_UserInfos.cs" />
+    <Compile Include="Com_UserLogin.cs" />
+    <Compile Include="Login\LoginDal.cs" />
+    <Compile Include="Login\MD5Hash.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tb_Navigation.cs" />
+    <Compile Include="Tb_Roles.cs" />
+    <Compile Include="Tb_RolesAddUser.cs" />
+    <Compile Include="Tb_RolesAndNavigation.cs" />
+    <Compile Include="View_Users.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DBUtility\Accounts.DBUtility.csproj">
+      <Project>{9327ae7f-fd69-4970-9771-6cf1416a0042}</Project>
+      <Name>Accounts.DBUtility</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Model\Accounts.Model.csproj">
+      <Project>{92b871e1-029a-47e1-83fa-0fce17e57fc1}</Project>
+      <Name>Accounts.Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

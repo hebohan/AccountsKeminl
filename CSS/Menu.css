@@ -1,0 +1,108 @@
+﻿*
+{
+	margin: 0;
+	padding: 0;
+}
+body
+{
+	font: 12px Arial, Helvetica, sans-serif;
+	background-color: #198bc9;
+	color: #075587;
+}
+a
+{
+	text-decoration: none;
+	color: #075587;
+}
+img
+{
+	border: none;
+	vertical-align: middle;
+}
+ul li a
+{
+	text-decoration: none;
+	color: #22557c;
+}
+img
+{
+	border: none;
+}
+#sidebar
+{
+	background: #e6f4fa;
+	margin: 0 0 0 5px;
+	width: 198px;
+	height: 600px;
+	border-right: 1px solid #0575aa;
+	border-left: 1px solid #229cda;
+	border-bottom: 1px solid #229cda;
+}
+
+.lefttop
+{
+	background: url(Images/lefttop.gif) no-repeat;
+	height: 26px;
+	width: 198px;
+}
+
+#sidebar #main-nav
+{
+	width: 198px;
+	background: #fff;
+}
+
+#sidebar #main-nav li
+{
+	list-style: none;
+	text-align: left;
+}
+
+#sidebar #main-nav li a.nav-top-item
+{
+	background: url(Images/menu_bg.gif) no-repeat;
+	padding: 5px 0 10px 0;
+	cursor: pointer;
+	display: block;
+	text-decoration: none;
+}
+
+#sidebar #main-nav li a.current
+{
+	background: url(Images/menu_bg.gif) no-repeat;
+	font-weight: bold;
+}
+
+#sidebar #main-nav ul
+{
+	margin: 10px 0 10px 0;
+}
+
+#sidebar #main-nav ul li
+{
+	list-style: none;
+	line-height: 24px;
+	margin: 0 0 3px 0;
+	padding: 0 0 0 10px;
+}
+
+#sidebar #main-nav ul li a
+{
+	display: block;
+}
+
+#sidebar #main-nav ul li a:hover, #sidebar #main-nav ul li a.current, #sidebar #main-nav ul li a.current:hover
+{
+	background: url(Images/menu_bg3.gif) no-repeat;
+	height: 24px;
+	line-height: 24px;
+	font-weight: bold;
+}
+
+.menuCurrent
+{
+	background: url(Images/menu_bg3.gif) no-repeat;
+	height: 24px;
+	line-height: 24px;
+	font-weight: bold;
+}

@@ -1,0 +1,56 @@
+﻿*{margin:0;padding:0; }
+body{font-size:12px;font-family:"宋体"; color:#333;}
+h1,h2,h3,h4,h5,h6{ font-size:12px;font-weight:100;}
+img{ border:0;vertical-align:middle;}
+ul,li{list-style:none;}
+a{text-decoration:none;color:#333; }
+a:hover{color:#ff0000;}
+.c{clear:both;}
+.hide{ display:none;}
+
+
+.top_max{ height:59px;}
+.top_max .logo{ float:left;}
+.top_max .sm_right{ float:right; line-height:59px;}
+.top_max .sm_right ul li{ width:92px; float:left;}
+.top_max .sm_right ul li a{ padding-left:3px; color:#0e2d5f;}
+.top_max .sm_right ul li a:hover{color:#ff0000;}
+.top_under{ float:left;height:31px;}
+.top_under ul li{float:left; line-height:31px; margin-left:15px;color:#0e2d5f; }
+.top_under ul li img{ padding-right:3px;}
+
+/*
+.title01 ul li{ background:url(../Images/li_icon.jpg) no-repeat; background-position:6px center ;line-height:28px;}
+.title01 ul li a{ margin-left:18px; cursor:pointer;padding:4px;}
+.title01 ul li.font_jg{background:#ffe88b url(../Images/li_icon.jpg) no-repeat; background-position:6px center;}
+.title01 ul li.font_jg a{color:#045c8c;}
+.title01 ul li.font_dj{background:#ffe88b url(../Images/li_icon.jpg) no-repeat; background-position:6px center;}
+.title01 ul li.font_dj a{color:#c37209;}
+
+
+.title01 ul li{ background:url(../Images/li_icon.jpg) no-repeat; background-position:6px center;line-height:24px; margin:4px 0 4px 0;}
+.title01 ul li a{ margin-left:18px; cursor:pointer;padding:4px;}
+.title01 ul li.font_jg{background:#ffe88b url(../Images/li_icon.jpg) no-repeat; background-position:6px center;}
+.title01 ul li.font_jg a{color:#045c8c;}
+.title01 ul li.font_dj{background:#ffe88b url(../Images/li_icon.jpg) no-repeat; background-position:6px center;}
+.title01 ul li.font_dj a{color:#c37209;}
+
+*/
+
+.title01 ul { line-height:30px; font-weight:normal; }
+.title01 ul li{cursor:pointer;}
+.title01 ul li.font_jg{background:#ffe88b ;}
+.title01 ul li.font_jg a{color:#045c8c;}
+.title01 ul li.font_dj{background:url(../Images/libg.png) no-repeat;line-height:30px; color:#fff;position:relative; }
+.title01 ul li.font_dj a{color:#ffffff;}
+
+.title01 li cite{display:block; float:left; margin-left:32px; background:url(../images/list.gif) no-repeat; width:16px; height:16px; margin-top:7px;}
+.title01 li.font_dj cite{background:url(../images/list1.gif) no-repeat;}
+.title01 li.font_dj i{display:block; background:url(../images/sj.png) no-repeat; width:6px; height:11px; position:absolute; right:0;z-index:10000; top:9px; right:-1px;}
+.title01 li a{ display:block; *display:inline; *padding-top:5px;}
+
+
+
+
+
+

@@ -1,0 +1,920 @@
+/* CSS Document */
+body, td, th
+{
+    font-size: 12px;
+    font-weight: normal;
+}
+body
+{
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    font-size: 12px;
+    scrollbar-face-color: #DEE3E7;
+    scrollbar-highlight-color: #FFFFFF;
+    scrollbar-shadow-color: #DEE3E7;
+    scrollbar-3dlight-color: #D1D7DC;
+    scrollbar-arrow-color: #006699;
+    scrollbar-track-color: #EFEFEF;
+    scrollbar-darkshadow-color: #98AAB1;
+}
+a:link
+{
+    color: #0066cc;
+    text-decoration: none;
+}
+a:visited
+{
+    color: #0066CC;
+    text-decoration: none;
+}
+a:hover
+{
+    color: #FF0000;
+    text-decoration: none;
+}
+a:active
+{
+    color: #0066CC;
+    text-decoration: none;
+}
+
+.font06c
+{
+    color: #0066cc;
+}
+
+.tableall
+{
+    width: 100%;
+    height: 100%;
+    border-collapse: collapse;
+}
+.tabletitle
+{
+    width: 100%;
+    height: 31px;
+}
+.imgloading
+{
+    background-image: url('../images/loading.gif');
+}
+.bakloading
+{
+    background-image: url('../images/bg_title.gif');
+}
+.tdbuttonleft
+{
+    font-size: 10pt;
+    text-align: left;
+    vertical-align: middle;
+    padding: 0px, 1px, 0px;
+    width: 100%;
+}
+.tdbutton
+{
+    text-align: center;
+    vertical-align: middle;
+    padding: 0px, 1px, 0px;
+    width: 60px;
+}
+select
+{
+    position: relative;
+    left: 3px;
+    width: 80%;
+    line-height: 14px;
+    border-style: dashed;
+    border-width: 1px;
+}
+.input150
+{
+    height: 20px;
+    width: 90%;
+    border: 1px solid #CCCCCC;
+}
+.input70
+{
+    height: 15px;
+    width: 70px;
+    border: 1px solid #CCCCCC;
+}
+.input200
+{
+    height: 15px;
+    width: 200px;
+    border: 1px solid #CCCCCC;
+}
+.input300
+{
+    height: 15px;
+    width: 300px;
+    border: 1px solid #CCCCCC;
+}
+.button01
+{
+    padding: 1px;
+    border: 1px dashed #CCCCCC;
+    background-color: #F0e68c;
+}
+.down3366CC
+{
+    border-bottom-width: 4px;
+    border-bottom-style: solid;
+    border-bottom-color: #FF0000;
+}
+.red12
+{
+    color: #FF0000;
+}
+
+.c1
+{
+    background-color: #fff;
+}
+.c2
+{
+    background-color: #fff;
+}
+#nc
+{
+    background-color: #ECE9D8;
+    color: #000;
+}
+.biao01-border
+{
+    border-top-width: 1px;
+    border-left-width: 1px;
+    border-top-style: solid;
+    border-left-style: solid;
+    border-top-color: #A9B8D0;
+    border-left-color: #A9B8D0;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #A9B8D0;
+    width: 100%;
+}
+.biao01-title
+{
+    text-align: center;
+    height: 20px;
+    padding-top: 3px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-right-color: #A9B8D0;
+    border-bottom-color: #A9B8D0;
+    background-color: #E9F2F8;
+    font-weight: bold;
+    color: #163E7F;
+}
+.biao02-title
+{
+    height: 20px;
+    padding-top: 3px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-right-color: #A9B8D0;
+    border-bottom-color: #A9B8D0;
+    background-color: #E9F2F8;
+    font-weight: bold;
+    color: #163E7F;
+    padding-left: 8px;
+}
+.biao01-td01
+{
+    background-color: #FFFFFF;
+    padding: 2px;
+    height: 20px;
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: #A9B8D0;
+}
+.biao01-td02
+{
+    background-color: #F2F7FB;
+    padding: 2px;
+    height: 20px;
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: #A9B8D0;
+}
+.biao01-td03
+{
+    background-color: #F2F7FB;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-top-color: #A9B8D0;
+    border-right-color: #A9B8D0;
+    height: 20px;
+    padding: 2px;
+}
+.biao01-td04
+{
+    background-color: #F2F7FB;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-right-color: #A9B8D0;
+    border-bottom-color: #A9B8D0;
+    padding: 2px;
+    height: 20px;
+}
+.biao01-td05
+{
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-right-color: #A9B8D0;
+    border-bottom-color: #A9B8D0;
+    padding: 2px;
+    height: 20px;
+}
+.btn
+{
+    border-right: #7b9ebd 1px solid;
+    padding-right: 4px;
+    border-top: #7b9ebd 1px solid;
+    padding-left: 2px;
+    font-size: 12px;
+    filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#ffffff, EndColorStr=#cecfde);
+    border-left: #7b9ebd 1px solid;
+    cursor: hand;
+    color: black;
+    padding-top: 4px;
+    border-bottom: #7b9ebd 1px solid;
+}
+.btn1_mouseout
+{
+    border-right: #7EBF4F 1px solid;
+    padding-right: 2px;
+    border-top: #7EBF4F 1px solid;
+    padding-left: 2px;
+    font-size: 12px;
+    filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#ffffff, EndColorStr=#B3D997);
+    border-left: #7EBF4F 1px solid;
+    cursor: hand;
+    color: black;
+    padding-top: 2px;
+    border-bottom: #7EBF4F 1px solid;
+}
+.btn1_mouseover
+{
+    border-right: #7EBF4F 1px solid;
+    padding-right: 2px;
+    border-top: #7EBF4F 1px solid;
+    padding-left: 2px;
+    font-size: 12px;
+    filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#ffffff, EndColorStr=#CAE4B6);
+    border-left: #7EBF4F 1px solid;
+    cursor: hand;
+    color: black;
+    padding-top: 2px;
+    border-bottom: #7EBF4F 1px solid;
+}
+.btn2
+{
+    padding: 2 4 0 4;
+    font-size: 12px;
+    height: 23;
+    background-color: #ece9d8;
+    border-width: 1;
+}
+.btn3_mouseout
+{
+    border-right: #2C59AA 1px solid;
+    padding-right: 2px;
+    border-top: #2C59AA 1px solid;
+    padding-left: 2px;
+    font-size: 12px;
+    filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#ffffff, EndColorStr=#C3DAF5);
+    border-left: #2C59AA 1px solid;
+    cursor: hand;
+    color: black;
+    padding-top: 2px;
+    border-bottom: #2C59AA 1px solid;
+}
+.btn3_mouseover
+{
+    border-right: #2C59AA 1px solid;
+    padding-right: 2px;
+    border-top: #2C59AA 1px solid;
+    padding-left: 2px;
+    font-size: 12px;
+    filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#ffffff, EndColorStr=#D7E7FA);
+    border-left: #2C59AA 1px solid;
+    cursor: hand;
+    color: black;
+    padding-top: 2px;
+    border-bottom: #2C59AA 1px solid;
+}
+.btn3_mousedown
+{
+    border-right: #FFE400 1px solid;
+    padding-right: 2px;
+    border-top: #FFE400 1px solid;
+    padding-left: 2px;
+    font-size: 12px;
+    filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#ffffff, EndColorStr=#C3DAF5);
+    border-left: #FFE400 1px solid;
+    cursor: hand;
+    color: black;
+    padding-top: 2px;
+    border-bottom: #FFE400 1px solid;
+}
+.btn3_mouseup
+{
+    border-right: #2C59AA 1px solid;
+    padding-right: 2px;
+    border-top: #2C59AA 1px solid;
+    padding-left: 2px;
+    font-size: 12px;
+    filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#ffffff, EndColorStr=#C3DAF5);
+    border-left: #2C59AA 1px solid;
+    cursor: hand;
+    color: black;
+    padding-top: 2px;
+    border-bottom: #2C59AA 1px solid;
+}
+.btn_2k3
+{
+    border-right: #002D96 1px solid;
+    padding-right: 2px;
+    border-top: #002D96 1px solid;
+    padding-left: 2px;
+    font-size: 12px;
+    filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#FFFFFF, EndColorStr=#9DBCEA);
+    border-left: #002D96 1px solid;
+    cursor: hand;
+    color: black;
+    padding-top: 2px;
+    border-bottom: #002D96 1px solid;
+}
+
+ol li
+{
+    margin: 8px;
+}
+#con
+{
+    font-size: 12px;
+    width: 100%;
+    margin: 0 auto;
+    height: 100%;
+}
+#tags
+{
+    height: 23px;
+    width: 98%;
+    margin: 0;
+    padding: 0;
+    margin-left: 10px;
+}
+#tags li
+{
+    float: left;
+    margin-right: 1px;
+    background: url(../images/tagleft.gif) no-repeat left bottom;
+    height: 23px;
+    list-style-type: none;
+}
+#tags li a
+{
+    text-decoration: none;
+    float: left;
+    background: url(../images/tagright.gif) no-repeat right bottom;
+    height: 23px;
+    padding: 0px 10px;
+    line-height: 23px;
+    color: #999;
+}
+#tags li.emptyTag
+{
+    width: 4px;
+    background: none;
+}
+#tags li.selectTag
+{
+    background-position: left top;
+    position: relative;
+    height: 25px;
+    margin-bottom: -2px;
+}
+#tags li.selectTag a
+{
+    background-position: right top;
+    color: #000;
+    height: 25px;
+    line-height: 25px;
+}
+#tagContent
+{
+    padding: 1px;
+    background-color: #fff;
+    border: 1px solid #aecbd4;
+    height: 100%;
+    overflow: auto;
+}
+.tagContent
+{
+    background: url(../images/bg_title.gif) repeat-x;
+    height: 100%;
+    padding: 2px;
+    color: #474747;
+    width: 100%;
+    display: none;
+}
+#tagContent div.selectTag
+{
+    display: block;
+    height: 100%;
+}
+
+.inputfoucs
+{
+    font-size: 13px;
+    height: 20px;
+    width: 150px;
+    border: 1px solid #CCCCCC;
+    background: #fffbca;
+    color: #cb6a24;
+}
+.inputblur
+{
+    font-size: 13px;
+    height: 20px;
+    width: 150px;
+    background: #f8f9ff;
+    border: 1px solid #CCCCCC;
+    color: #6C63A3;
+}
+
+.body_list
+{
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    font-size: 12px;
+    overflow: hidden;
+}
+
+/********************** buttonset 操作集合区域样式 ****************************/
+.buttonset_div
+{
+    background-image: url('../images/title.gif');
+    width: 100%;
+    height: 27px;
+}
+.buttonset_table
+{
+    width: 100%;
+    height: 27px;
+}
+.buttonset_td
+{
+    height: 27px;
+}
+.buttonset_title
+{
+    font-size: 10pt;
+    text-align: left;
+    vertical-align: middle;
+    padding: 0px, 1px, 0px;
+    width: 20%;
+}
+.buttonset_buttons
+{
+    text-align: right;
+    width: 80%;
+}
+
+.buttonset_button_mouseout
+{
+    border-right: #2C59AA 1px solid;
+    padding-right: 2px;
+    border-top: #2C59AA 1px solid;
+    padding-left: 2px;
+    font-size: 12px;
+    filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#ffffff, EndColorStr=#C3DAF5);
+    border-left: #2C59AA 1px solid;
+    cursor: hand;
+    color: black;
+    padding-top: 2px;
+    border-bottom: #2C59AA 1px solid;
+}
+.buttonset_button_mouseover
+{
+    border-right: #2C59AA 1px solid;
+    padding-right: 2px;
+    border-top: #2C59AA 1px solid;
+    padding-left: 2px;
+    font-size: 12px;
+    filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#ffffff, EndColorStr=#D7E7FA);
+    border-left: #2C59AA 1px solid;
+    cursor: hand;
+    color: black;
+    padding-top: 2px;
+    border-bottom: #2C59AA 1px solid;
+}
+.buttonset_button_mousedown
+{
+    border-right: #FFE400 1px solid;
+    padding-right: 2px;
+    border-top: #FFE400 1px solid;
+    padding-left: 2px;
+    font-size: 12px;
+    filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#ffffff, EndColorStr=#C3DAF5);
+    border-left: #FFE400 1px solid;
+    cursor: hand;
+    color: black;
+    padding-top: 2px;
+    border-bottom: #FFE400 1px solid;
+}
+.buttonset_button_mouseup
+{
+    border-right: #2C59AA 1px solid;
+    padding-right: 2px;
+    border-top: #2C59AA 1px solid;
+    padding-left: 2px;
+    font-size: 12px;
+    filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#ffffff, EndColorStr=#C3DAF5);
+    border-left: #2C59AA 1px solid;
+    cursor: hand;
+    color: black;
+    padding-top: 2px;
+    border-bottom: #2C59AA 1px solid;
+}
+
+/********************** list_content 列表内容区域样式 ****************************/
+.list_tableall
+{
+    width: 100%;
+    height: 100%;
+    border-collapse: collapse;
+}
+
+.list_content
+{
+    /*background-image : url('../images/bg_title.gif');*/
+    background-color: #C9E2F8;
+    height: 100%;
+    overflow: auto;
+}
+
+.list_content_td
+{
+    vertical-align: top;
+}
+
+.list_content_table
+{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.list_grid_div
+{
+    width: 100%;
+    height: 100%;
+}
+
+table th
+{
+    border: #bfceff 1px solid;
+    filter: progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr='#ddecfb',endColorStr='#ffffff');
+}
+
+.list_grid_main
+{
+    border-left: 1px solid #A9B8D0;
+    border-top: 1px solid #A9B8D0;
+    border-bottom: 1px solid #A9B8D0;
+    width: 100%;
+    text-align: center;
+}
+
+.list_grid_title
+{
+    color: #272727;
+    text-align: center;
+    height: 24px;
+    padding-top: 3px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-right-color: #A9B8D0;
+    border-bottom-color: #A9B8D0; /*background-image:url('../images/bg_title1.gif');*/
+    background-color: #CDE2F3;
+}
+.list_grid_title2
+{
+    
+    color: #272727;
+    text-align: center;
+    height: 24px;
+    padding-top: 3px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-right-color: #A9B8D0;
+    border-bottom-color: #A9B8D0; /*background-image:url('../images/bg_title1.gif');*/
+    background-color: #CDE2F3;
+    position: relative;
+}
+.Grid
+{
+    width: 100%;
+    height: 18px;
+    border: 0px solid #598CB7; /*(项目人员自行设置)列表表格最外边4条边的样式 1px（一个像素宽） solid（实线） ##598CB7 （颜色）*/
+    border-collapse: collapse;
+}
+.list_grid_alternate_row
+{
+    background-color: #EBF6FA;
+    padding: 2px;
+    height: 26px;
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: #A9B8D0;
+    vertical-align: middle;
+}
+.list_grid_alternate_row td
+{
+    background-color: #EBF6FA;
+    border: #bfceff 1px solid;
+    vertical-align: middle;
+}
+.list_grid_alternate_row td a
+{
+    color: #1D68AB;
+}
+.list_grid_row
+{
+    background-color: #EBF6FA;
+    padding: 3px;
+    height: 30px;
+
+    vertical-align: middle;
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: #A9B8D0;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #A9B8D0;
+}
+
+.list_grid_row_selected
+{
+    background-color: #f8f2e9;
+    padding: 2px;
+    height: 30px;
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: #EE0000;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #EE0000;
+}
+
+.list_grid_row td
+{
+    background-color: #FAFEFF;
+    border: #bfceff 1px solid;
+}
+/********************** detailview 详细页区域样式 ****************************/
+.detail_tableall
+{
+    width: 100%;
+    height: 100%;
+    border-collapse: collapse;
+}
+.detail_tableexceptup
+{
+    width: 100%;
+    height: 35%;
+    border-collapse: collapse;
+}
+.detail_tableexceptdown
+{
+    width: 100%;
+    height: 65%;
+    border-collapse: collapse;
+}
+.labelclass
+{
+    border: #CCCCCC solid;
+    border-width: 0 1 1 0;
+    height: 35px;
+    padding-left: 3px;
+    text-align: center;
+    width: 20%;
+    font-size: 14px;
+    background-color: #E9F2F8;
+}
+.tdclass
+{
+    border: #CCCCCC solid;
+    border-width: 0 1 1 0;
+    height: 35px;
+    padding-left: 3px;
+    text-align: left;
+    width: 30%;
+    font-size: 14px;
+}
+.tableclass
+{
+    border: #CCCCCC solid;
+    border-width: 1 0 0 1;
+    background: #ffffff;
+}
+.detail_content_td
+{
+    vertical-align: top;
+    height: 100%;
+}
+
+.detail_content
+{
+    height: 100%;
+    overflow: auto;
+}
+
+.detail_content_table
+{
+    width: 100%;
+    height: 100%;
+    border-collapse: collapse;
+}
+.detail_edit_width50
+{
+    height: 20px;
+    width: 42%;
+    border: 1px solid #CCCCCC;
+    border-collapse: collapse;
+}
+.detail_edit
+{
+    height: 20px;
+    width: 90%;
+    border: 1px solid #CCCCCC;
+    border-collapse: collapse;
+}
+
+.detail_edit25
+{
+    height: 25px;
+    width: 90%;
+    border: 1px solid #CCCCCC;
+    border-collapse: collapse;
+}
+.detail_edit35
+{
+    height: 35px;
+    width: 90%;
+    border: 1px solid #CCCCCC;
+    border-collapse: collapse;
+}
+.detail_edit40
+{
+    height: 40px;
+    width: 90%;
+    border: 1px solid #CCCCCC;
+    border-collapse: collapse;
+}
+.detail_edit50
+{
+    height: 50px;
+    width: 100%;
+    border: 1px solid #CCCCCC;
+    border-collapse: collapse;
+}
+.detail_edit_min
+{
+    height: 20px;
+    width: 60%;
+    border: 1px solid #CCCCCC;
+}
+
+.detail_select
+{
+    position: relative;
+    left: 0px;
+    top: 0px;
+    width: 80%;
+    line-height: 14px;
+    border-style: dashed;
+    border-width: 1px;
+}
+
+.detail_textarea
+{
+    height: 100px;
+    width: 80%;
+    border: 1px solid #CCCCCC;
+}
+
+.labeltdline
+{
+    border: #CCCCCC solid;
+    border-width: 0 1 1 0;
+    height: 25px;
+    padding-left: 3px;
+    text-align: center;
+    width: 20%;
+    font-size: 12px;
+    background-color: #E9F2F8;
+}
+.inputtdline
+{
+    border: #CCCCCC solid;
+    border-width: 0 1 1 0;
+    height: 25px;
+    padding-left: 3px;
+    text-align: left;
+    width: 30%;
+    font-size: 12px;
+}
+/*新表格样式*/
+.cTableTitle
+{
+    font: 12px "Trebuchet MS" , Verdana, Arial, Helvetica, sans-serif;
+    color: #4f6b72;
+    border-right: 1px solid #C1DAD7;
+    border-left: 1px solid #C1DAD7;
+    border-bottom: 1px solid #C1DAD7;
+    border-top: 1px solid #C1DAD7;
+    height: 28px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: left;
+    padding: 5px 5px 5px 12px;
+    background: #CAE8EA url(../images/bg_header.jpg) no-repeat;
+    text-align: center;
+}
+.cTableTd1
+{
+    border-right: 1px solid #C1DAD7;
+    border-bottom: 1px solid #C1DAD7;
+    border-left: 1px solid #C1DAD7;
+    border-top: 0;
+    height: 25px;
+    font: bold 10px "Trebuchet MS" , Verdana, Arial, Helvetica, sans-serif;
+    background: #F5FAFA;
+    color: #797268;
+}
+.cTableTd2
+{
+    border-right: 1px solid #C1DAD7;
+    border-bottom: 1px solid #C1DAD7;
+    background: #F5FAFA;
+    color: #797268;
+    height: 25px;
+    border-left: 1px solid #C1DAD7;
+    border-top: 0;
+    font: bold 10px "Trebuchet MS" , Verdana, Arial, Helvetica, sans-serif;
+    color: #797268;
+}
+.fim_mg
+{
+    vertical-align: top;
+    width: 100%;
+}
+.fim_l
+{
+    filter: Alpha(Opacity='30',FinishOpacity='100',2);
+    width: 60px;
+    height: 26px;
+    color: black;
+    background-color: #E9F2F8;
+    padding: 1px 2px;
+    white-space: nowrap;
+}
+.fim_m
+{
+}
+.fim_r
+{
+    padding: 1px 2px;
+    color: #295796;
+    font-size: 12px;
+}
+

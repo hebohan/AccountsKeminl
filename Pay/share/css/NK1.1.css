@@ -1,0 +1,204 @@
+﻿ /*	  CSS基础库 By youqing   2011-6-24 11:31:30  */
+
+* {margin:0;padding:0;list-style:none;}
+img{border:0px;}
+.midImg {vertical-align:middle}
+
+
+ /*分割 start */
+
+.cb {font-size:0;line-height:0;height:0;}
+.h6px {height:6px;font-size:0;line-height:0;clear:both;}
+.h8px {height:8px;font-size:0;line-height:0;clear:both;}
+.h10px {height:10px;font-size:0;line-height:0;clear:both;}
+.h12px {height:12px;font-size:0;line-height:0;clear:both;}
+.h15px {height:15px;font-size:0;line-height:0;clear:both;}
+.h20px {height:20px;font-size:0;line-height:0;clear:both;}
+.h30px {height:30px;font-size:0;line-height:0;clear:both;}
+.h50px {height:50px;font-size:0;line-height:0;clear:both;}
+
+ /*边框*/
+.b1px {border:1px solid #999;}
+.bred {border:1px solid red;}
+.b0px {border:0b1px;}
+
+ /* 宽度百分比 start */
+
+.w10p {width:10%;}
+.w15p {width:15%;}
+.w20p {width:20%;}
+.w30p {width:30%;}
+.w35p {width:35%;}
+.w50p {width:50%;}
+.w60p {width:60%;}
+.w65p {width:65%;}
+
+ /*高度百分比 start */
+
+.h10p {height:10%;}
+.h15p {height:15%;}
+.h20p {height:20%;}
+.h30p {height:30%;}
+.h35p {height:35%;}
+.h50p {height:50%;}
+.h60p {height:60%;}
+.h65p {height:65%;}
+
+ /*高度绝对值 start */
+
+.h15 {height:15px;}
+.h20 {height:20px;}
+.h30 {height:30px;}
+.h35 {height:35px;}
+.h50 {height:50px;}
+.h55 {height:55px;}
+.h100 {height:100px;}
+.h200 {height:200px;}
+
+
+ /* 文字对其 start */
+
+.t_l {text-align:left}
+.t_r {text-align:right}
+.t_c {text-align:center}
+
+
+
+ /* 按钮区域 start */
+
+.btnAdd {background:url(../../images/t01.png) no-repeat;border:solid 1px #00bfff;height:33px;line-height: 33px;font-size:14px;text-indent:33px;width:auto;overflow:visible;cursor:pointer;border-radius: 3px;padding-right: 6px;font-family: '微软雅黑';margin-right: 10px;}
+.btnDel {background:url(../../images/t03.png) no-repeat;border:solid 1px #00bfff;height:33px;line-height: 33px;font-size:14px;text-indent:33px;width:auto;overflow:visible;cursor:pointer;border-radius: 3px;padding-right: 6px;font-family: '微软雅黑';margin-right: 10px;}
+.btnSearch {background:url(../../images/ico06.png) no-repeat;border:solid 1px #00bfff;height:33px;line-height: 33px;font-size:14px;text-indent:33px;width:auto;overflow:visible;cursor:pointer;border-radius: 3px;padding-right: 6px;font-family: '微软雅黑';margin-right: 10px;}
+.btnExport {background:url(../images/Btn.gif) 8px -145px no-repeat;border:solid 1px #00bfff;height:33px;line-height: 33px;font-size:14px;text-indent:33px;width:auto;overflow:visible;cursor:pointer;border-radius: 3px;padding-right: 6px;font-family: '微软雅黑';margin-right: 10px;}
+.btnBox {background:url(../../images/time.png) no-repeat;border:solid 1px #00bfff;height:33px;line-height: 33px;font-size:14px;text-indent:33px;width:auto;overflow:visible;cursor:pointer;border-radius: 3px;padding-right: 6px;font-family: '微软雅黑';margin-right: 10px;}
+.btnGraph {background:url(../images/Btn.gif) 8px -245px no-repeat;border:solid 1px #00bfff;height:33px;line-height: 33px;font-size:14px;text-indent:33px;width:auto;overflow:visible;cursor:pointer;border-radius: 3px;padding-right: 6px;font-family: '微软雅黑';margin-right: 10px;}
+.btnRecycle {background:url(../images/Btn.gif) 8px -295px no-repeat;border:solid 1px #00bfff;height:33px;line-height: 33px;font-size:14px;text-indent:33px;width:auto;overflow:visible;cursor:pointer;border-radius: 3px;padding-right: 6px;font-family: '微软雅黑';margin-right: 10px;}
+.btnOK {background:url(../images/Btn.gif) 8px -345px no-repeat;border:solid 1px #00bfff;height:33px;line-height: 33px;font-size:14px;text-indent:33px;width:auto;overflow:visible;cursor:pointer;border-radius: 3px;padding-right: 6px;font-family: '微软雅黑';margin-right: 10px;}
+.btnSave {background:url(../../images/ico04.png) no-repeat;border:solid 1px #00bfff;height:33px;line-height: 33px;font-size:14px;text-indent:33px;width:auto;overflow:visible;cursor:pointer;border-radius: 3px;padding-right: 6px;font-family: '微软雅黑';margin-right: 10px;}
+.btnBack {background:url(../images/Btn.gif) 8px -445px no-repeat;border:solid 1px #00bfff;height:33px;line-height: 33px;font-size:14px;text-indent:33px;width:auto;overflow:visible;cursor:pointer;border-radius: 3px;padding-right: 6px;font-family: '微软雅黑';margin-right: 10px;}
+.btnPrint {background:url(../images/Btn.gif) 8px -495px no-repeat;border:solid 1px #00bfff;height:33px;line-height: 33px;font-size:14px;text-indent:33px;width:auto;overflow:visible;cursor:pointer;border-radius: 3px;padding-right: 6px;font-family: '微软雅黑';margin-right: 10px;}
+.btnSelectCol {background:url(../images/Btn.gif) 8px -545px no-repeat;border:solid 1px #00bfff;height:33px;line-height: 33px;font-size:14px;text-indent:33px;width:auto;overflow:visible;cursor:pointer;border-radius: 3px;padding-right: 6px;font-family: '微软雅黑';margin-right: 10px;}
+.btnUser {background:url(../images/Btn.gif) 8px -595px no-repeat;border:solid 1px #00bfff;height:33px;line-height: 33px;font-size:14px;text-indent:33px;width:auto;overflow:visible;cursor:pointer;border-radius: 3px;padding-right: 6px;font-family: '微软雅黑';margin-right: 10px;}
+.btnLock {background:url(../images/Btn.gif) 8px -645px no-repeat;border:solid 1px #00bfff;height:33px;line-height: 33px;font-size:14px;text-indent:33px;width:auto;overflow:visible;cursor:pointer;border-radius: 3px;padding-right: 6px;font-family: '微软雅黑';margin-right: 10px;}
+.btnOrg {background:url(../images/Btn.gif) 8px -695px no-repeat;border:solid 1px #00bfff;height:33px;line-height: 33px;font-size:14px;text-indent:33px;width:auto;overflow:visible;cursor:pointer;border-radius: 3px;padding-right: 6px;font-family: '微软雅黑';margin-right: 10px;}
+.btnEdit {background:url(../../images/t02.png) no-repeat;border:solid 1px #00bfff;height:33px;line-height: 33px;font-size:14px;text-indent:33px;width:auto;overflow:visible;cursor:pointer;border-radius: 3px;padding-right: 6px;font-family: '微软雅黑';margin-right: 10px;}
+.btnfolder  {background:url(../images/Btn.gif) 8px -845px no-repeat;border:solid 1px #00bfff;height:33px;line-height: 33px;font-size:14px;text-indent:33px;width:auto;overflow:visible;cursor:pointer;border-radius: 3px;padding-right: 6px;font-family: '微软雅黑';margin-right: 10px;}
+.btnRef  {background:url(../images/Btn.gif) 8px -895px no-repeat;border:solid 1px #00bfff;height:33px;line-height: 33px;font-size:14px;text-indent:33px;width:auto;overflow:visible;cursor:pointer;border-radius: 3px;padding-right: 6px;font-family: '微软雅黑';margin-right: 10px;}
+
+
+
+ /* 表单元素设置 start */
+input {border:1px solid #97A7B5;background:url(../images/inputBg.png) repeat-x;}
+.inputDate {BEHAVIOR: url(../../share/css/Calendar.htc);}
+
+
+
+/*
+html,body{height:100%}
+html {	    SCROLLBAR-FACE-COLOR: #01A9D6; 
+			SCROLLBAR-SHADOW-COLOR: #D8F0FC; 
+			SCROLLBAR-3DLIGHT-COLOR: #01A9D6; 
+			SCROLLBAR-ARROW-COLOR: #D8F0FC; 
+			SCROLLBAR-DARKSHADOW-COLOR: #01A9D6; 
+			SCROLLBAR-BASE-COLOR: #9CDAF8		  
+		}
+*/
+
+html {  SCROLLBAR-ARROW-COLOR: #006699; 
+		SCROLLBAR-FACE-COLOR: #dee3e7; 
+		SCROLLBAR-DARKSHADOW-COLOR: #98aab1; 
+		SCROLLBAR-HIGHLIGHT-COLOR: #ffffff; 
+		SCROLLBAR-SHADOW-COLOR: #dee3e7; 
+		SCROLLBAR-TRACK-COLOR: #efefef; 
+		SCROLLBAR-3DLIGHT-COLOR: #d1d7dc; }
+			
+
+
+
+/* 文字样式 start */
+
+.bai12,.bai12 a,.bai12 a:visited{font:12px/180% Verdana, Geneva, Arial, Helvetica, sans-serif;color:white;text-decoration:none;}
+.bai12 a:hover{color:white;text-decoration:underline;}
+
+.bai12b,.bai12b a,.bai12b a:visited{font:bold 12px/180% Verdana, Geneva, Arial, Helvetica, sans-serif;color:white;text-decoration:none;}
+.bai12b a:hover{color:white;text-decoration:underline;}
+
+.bai14b,.bai14b a,.bai14b a:visited{font:bold 14px/180% Verdana, Geneva, Arial, Helvetica, sans-serif;color:white;text-decoration:none;}
+.bai14b a:hover{color:white;text-decoration:underline;}
+
+.bai12_22,.bai12_22 a,.bai12_22 a:visited{font:12px/22px Verdana, Geneva, Arial, Helvetica, sans-serif;color:white;text-decoration:none;}
+.bai12_22 a:hover{color:white;text-decoration:underline;}
+
+.bai12_200,.bai12_200 a,.bai12_200 a:visited{font:12px/200% Verdana, Geneva, Arial, Helvetica, sans-serif;color:white;text-decoration:none;}
+.bai12_200 a:hover{color:white;text-decoration:underline;}
+ 
+.bai12_45,.bai12_45 a,.bai12_45 a:visited{font:12px/45px Verdana, Geneva, Arial, Helvetica, sans-serif;color:white;text-decoration:none;}
+.bai12_45 a:hover{color:white;text-decoration:underline;}
+
+
+
+.hei12,.hei12 a,.hei12 a:visited{font:12px/180% Verdana, Geneva, Arial, Helvetica, sans-serif;color:#333;text-decoration:none;}
+.hei12 a:hover{color:#333;text-decoration:underline;}
+
+.hei13{font:12px/180% Verdana, Geneva, Arial, Helvetica, sans-serif;color:#333;text-decoration:none;}
+.hei13 a,.hei13 a:visited{font:bold 12px/180% Verdana, Geneva, Arial, Helvetica, sans-serif;color:#333;text-decoration:none;}
+.hei13 a:hover{color:#333;text-decoration:underline;}
+
+.hei12_S,.hei12_S a,.hei12_S a:visited{font:12px/180% "宋体";color:#333;text-decoration:none;}
+.hei12_S a:hover{color:#333;text-decoration:underline;}
+
+.hei12b,.hei12b a,.hei12b a:visited{font:bold 12px/180% Verdana, Geneva, Arial, Helvetica, sans-serif;color:#333;text-decoration:none;}
+.hei12b a:hover{color:#333;text-decoration:underline;}
+
+.hei12_29,.hei12_29 a,.hei12_29 a:visited{font:12px/29px Verdana, Geneva, Arial, Helvetica, sans-serif;color:#333;text-decoration:none;}
+.hei12_29 a:hover{color:#333;text-decoration:underline;}
+
+.hei12_35,.hei12_35 a,.hei12_35 a:visited{font:12px/35px Verdana, Geneva, Arial, Helvetica, sans-serif;color:#333;text-decoration:none;}
+.hei12_35 a:hover{color:#333;text-decoration:underline;}
+
+.hei12b_29,.hei12b_29 a,.hei12b_29 a:visited{font:bold 12px/29px Verdana, Geneva, Arial, Helvetica, sans-serif;color:#666;text-decoration:none;}
+.hei12b_29 a:hover{color:#666;text-decoration:underline;}
+
+.hei14b,.hei14b a,.hei14b a:visited{font:bold 14px/180% Verdana, Geneva, Arial, Helvetica, sans-serif;color:#333;text-decoration:none;}
+.hei14b a:hover{color:#333;text-decoration:underline;}
+
+.hui12,.hui12 a,.hui12 a:visited{font:12px/180% Verdana, Geneva, Arial, Helvetica, sans-serif;color:#969696;text-decoration:none;}
+.hui12 a:hover{color:#666;text-decoration:underline;}
+
+.hui11,.hui11 a,.hui11 a:visited{font:11px/180% Verdana, Geneva, Arial, Helvetica, sans-serif;color:#969696;text-decoration:none;}
+.hui11 a:hover{color:#666;text-decoration:underline;}
+
+.hui14b,.hui14b a,.hui14b a:visited{font:bold 14px/180% Verdana, Geneva, Arial, Helvetica, sans-serif;color:#666;text-decoration:none;}
+.hui14b a:hover{color:#666;text-decoration:underline;}
+
+
+.lan12,.lan12 a,.lan12 a:visited{font:12px/180% Verdana, Geneva, Arial, Helvetica, sans-serif;color:#336699;text-decoration:none;}
+.lan12 a:hover{color:#336699;text-decoration:underline;}
+
+.shenlan12,.shenlan12 a,.shenlan12 a:visited{font:12px/180% Verdana, Geneva, Arial, Helvetica, sans-serif;color:#013663;text-decoration:none;}
+.shenlan12 a:hover{color:#013663;text-decoration:underline;}
+
+.shenlan14b,.shenlan14b a,.shenlan14b a:visited{font:bold 14px/180% Verdana, Geneva, Arial, Helvetica, sans-serif;color:#013663;text-decoration:none;}
+.shenlan14b a:hover{color:#013663;text-decoration:underline;}
+
+.cheng12,.cheng12 a,.cheng12 a:visited{font:12px/180% Verdana, Geneva, Arial, Helvetica, sans-serif;color:#ff6600;text-decoration:none;}
+.cheng12 a:hover{color:#ff6600;text-decoration:underline;}
+
+.zhuanhong14b,.zhuanhong14b a,.zhuanhong14b a:visited{font:bold 14px/180% Verdana, Geneva, Arial, Helvetica, sans-serif;color:#993300;text-decoration:none;}
+.zhuanhong14b a:hover{color:#993300;text-decoration:underline;}
+
+.dahong14b,.dahong14b a,.dahong14b a:visited{font:bold 14px/180% Verdana, Geneva, Arial, Helvetica, sans-serif;color:#CC3300;text-decoration:none;}
+.dahong14b a:hover{color:#CC3300;text-decoration:underline;}
+
+
+
+
+
+
+
+
+
+
+
+
+

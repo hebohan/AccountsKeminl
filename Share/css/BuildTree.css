@@ -1,0 +1,26 @@
+ /*	  Ê÷ »ù´¡ÑùÊ½ By youqing   2011-10-26 18:34:03  */
+*{padding:0;margin:0;}
+input {border:0;background:none;}
+#toolLay  {width:700px}
+#rightLay input{display:none}
+#leftLay H5{CURSOR:hand;font-size:12px;line-height:25px;font-weight:normal;display:none;white-space: nowrap;height:25px;}
+#rightLay H5{CURSOR:hand;font-size:12px;line-height:25px;font-weight:normal;display:block;background:url(../images/tree/Rightbg.png) right bottom;white-space: nowrap;height:25px;text-indent:10px;display:none;}
+
+#rightLay .updown{display:none}
+
+#leftOuter {height:420px;width:268px;float:left;margin:17px 0 0 20px;display:inline }
+#rightOuter {height:420px;width:265px;float:left;margin:17px 0 0 28px;display:inline }
+#lefttitle,#righttitle {height:27px}
+
+#leftLay  {float:left;width:268px;height:351px;overflow:auto;}
+#rightLay  {float:left;width:268px;height:351px;overflow:auto;}
+#leftbt,#rightbt {padding:6px 0 0 0;line-height:32px!important;line-height:180%;}
+
+
+#leftLay .level1{text-indent:10px;display:block}
+#leftLay .level2{text-indent:40px;display:block}
+#leftLay .level3{text-indent:70px;}
+#leftLay .level4{text-indent:100px;}
+#leftLay .level5{text-indent:130px;}
+#leftLay .level6{text-indent:160px;}
+#leftLay .level7{text-indent:190px;}

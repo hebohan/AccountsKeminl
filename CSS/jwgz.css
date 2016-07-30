@@ -1,0 +1,22 @@
+﻿*{margin:0;padding:0; }
+body{font-size:12px;font-family:"宋体"; color:#333;}
+h1,h2,h3,h4,h5,h6{ font-size:12px;font-weight:100;}
+img{ border:0;vertical-align:middle;}
+ul,li{list-style:none;}
+a{text-decoration:none;color:#333; }
+a:hover{color:#ff0000;}
+.c{clear:both;}
+.hide{ display:none;}
+
+
+
+body{background:url(Images/wrap_bg.gif) repeat-x;}
+.jw_logo{ width:503px; margin:0 auto; margin-top:38px;}
+
+.jw_main{background:url(Images/cl_bg_03.png) no-repeat; width:528px; height:422px; margin:0 auto; margin-top:20px;}
+.jw_main .blue_cl a{background:url(Images/font_content01.png) no-repeat; width:147px; height:118px; float:left; margin:61px 0 0 226px; }
+.jw_main .blue_cl a:hover{background:url(Images/font_content04.png) no-repeat; }
+.jw_main .purple_cl a{background:url(Images/font_content02.png) no-repeat; width:147px; height:118px; float:left; margin:22px 0 0 49px; }
+.jw_main .purple_cl a:hover{background:url(Images/font_content05.png) no-repeat; }
+.jw_main .yellow_cl a{background:url(Images/font_content03.png) no-repeat; width:147px; height:118px; float:left; margin:72px 0 0 148px; }
+.jw_main .yellow_cl a:hover{background:url(Images/font_content06.png) no-repeat; }

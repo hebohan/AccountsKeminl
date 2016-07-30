@@ -1,0 +1,4 @@
+C:\Users\kemi\Documents\Visual Studio 2013\Projects\账单管理系统\Accounts_Keminl\DBUtility\bin\Debug\Accounts.DBUtility.dll
+C:\Users\kemi\Documents\Visual Studio 2013\Projects\账单管理系统\Accounts_Keminl\DBUtility\bin\Debug\Accounts.DBUtility.pdb
+C:\Users\kemi\Documents\Visual Studio 2013\Projects\账单管理系统\Accounts_Keminl\DBUtility\obj\Debug\Accounts.DBUtility.dll
+C:\Users\kemi\Documents\Visual Studio 2013\Projects\账单管理系统\Accounts_Keminl\DBUtility\obj\Debug\Accounts.DBUtility.pdb
