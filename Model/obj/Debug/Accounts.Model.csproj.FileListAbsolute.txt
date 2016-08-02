@@ -2,3 +2,8 @@ C:\Users\kemi\Documents\Visual Studio 2013\Projects\账单管理系统\Accounts_
 C:\Users\kemi\Documents\Visual Studio 2013\Projects\账单管理系统\Accounts_Keminl\Model\bin\Debug\Accounts.Model.pdb
 C:\Users\kemi\Documents\Visual Studio 2013\Projects\账单管理系统\Accounts_Keminl\Model\obj\Debug\Accounts.Model.dll
 C:\Users\kemi\Documents\Visual Studio 2013\Projects\账单管理系统\Accounts_Keminl\Model\obj\Debug\Accounts.Model.pdb
+D:\Workspaces\GitHub Source\Repos\AccountsKeminl\Model\bin\Debug\Accounts.Model.dll
+D:\Workspaces\GitHub Source\Repos\AccountsKeminl\Model\bin\Debug\Accounts.Model.pdb
+D:\Workspaces\GitHub Source\Repos\AccountsKeminl\Model\obj\Debug\Accounts.Model.csprojResolveAssemblyReference.cache
+D:\Workspaces\GitHub Source\Repos\AccountsKeminl\Model\obj\Debug\Accounts.Model.dll
+D:\Workspaces\GitHub Source\Repos\AccountsKeminl\Model\obj\Debug\Accounts.Model.pdb

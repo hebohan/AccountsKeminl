@@ -15,3 +15,20 @@ C:\Users\kemi\Documents\Visual Studio 2013\Projects\账单管理系统\Accounts_
 C:\Users\kemi\Documents\Visual Studio 2013\Projects\账单管理系统\Accounts_Keminl\DriveDAL\obj\Debug\Accounts.DAL.csprojResolveAssemblyReference.cache
 C:\Users\kemi\Documents\Visual Studio 2013\Projects\账单管理系统\Accounts_Keminl\DriveDAL\obj\Debug\Accounts.DAL.dll
 C:\Users\kemi\Documents\Visual Studio 2013\Projects\账单管理系统\Accounts_Keminl\DriveDAL\obj\Debug\Accounts.DAL.pdb
+D:\Workspaces\GitHub Source\Repos\AccountsKeminl\DriveDAL\bin\Debug\Accounts.DAL.dll
+D:\Workspaces\GitHub Source\Repos\AccountsKeminl\DriveDAL\bin\Debug\Accounts.DAL.pdb
+D:\Workspaces\GitHub Source\Repos\AccountsKeminl\DriveDAL\bin\Debug\Accounts.DBUtility.dll
+D:\Workspaces\GitHub Source\Repos\AccountsKeminl\DriveDAL\bin\Debug\Accounts.Model.dll
+D:\Workspaces\GitHub Source\Repos\AccountsKeminl\DriveDAL\bin\Debug\AspNetPager.dll
+D:\Workspaces\GitHub Source\Repos\AccountsKeminl\DriveDAL\bin\Debug\Inspur.Finix.ConfigurationManagement.dll
+D:\Workspaces\GitHub Source\Repos\AccountsKeminl\DriveDAL\bin\Debug\Inspur.Finix.DAL.dll
+D:\Workspaces\GitHub Source\Repos\AccountsKeminl\DriveDAL\bin\Debug\Inspur.Finix.DataExchange.dll
+D:\Workspaces\GitHub Source\Repos\AccountsKeminl\DriveDAL\bin\Debug\Inspur.Finix.ExceptionManagement.dll
+D:\Workspaces\GitHub Source\Repos\AccountsKeminl\DriveDAL\bin\Debug\Inspur.Finix.WebFramework.Controls4AJAX.dll
+D:\Workspaces\GitHub Source\Repos\AccountsKeminl\DriveDAL\bin\Debug\Inspur.Finix.WebFramework.Controls4AspNet.dll
+D:\Workspaces\GitHub Source\Repos\AccountsKeminl\DriveDAL\bin\Debug\Inspur.Finix.WebFramework.dll
+D:\Workspaces\GitHub Source\Repos\AccountsKeminl\DriveDAL\bin\Debug\Accounts.DBUtility.pdb
+D:\Workspaces\GitHub Source\Repos\AccountsKeminl\DriveDAL\bin\Debug\Accounts.Model.pdb
+D:\Workspaces\GitHub Source\Repos\AccountsKeminl\DriveDAL\obj\Debug\Accounts.DAL.csprojResolveAssemblyReference.cache
+D:\Workspaces\GitHub Source\Repos\AccountsKeminl\DriveDAL\obj\Debug\Accounts.DAL.dll
+D:\Workspaces\GitHub Source\Repos\AccountsKeminl\DriveDAL\obj\Debug\Accounts.DAL.pdb
